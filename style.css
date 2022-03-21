@@ -1,0 +1,39 @@
+div{
+    background-color: rgb(175, 218, 56);
+    border:2px solid rgb(60, 106, 192);
+    border-radius:30px;
+    width:300px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 5px rgb(202, 30, 30);
+}
+.static{
+    position:static;
+    top:300px;
+}
+.relative{
+    position:relative;
+    left:300px;
+}
+.ancestor{
+    position:relative;
+    left:350px;
+    top:50px;
+    width:400px;
+    height:300px;
+}
+.absolute{
+    position:absolute;
+    left:400px;
+    top:300px;
+}
+.fixed{
+    position:fixed;
+    top:20px;
+    right:0px;
+}
+.sticky{
+    position:sticky;
+    top:100px;
+}

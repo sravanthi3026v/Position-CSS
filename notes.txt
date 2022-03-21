@@ -1,0 +1,20 @@
+position:
+ normal flow=>static
+ element float
+ absolute position
+
+ position:static|relative|absolute|fixed|sticky
+
+ Relative position:-a part of normal document flow
+ move content from one position to another
+ -re-positioning of an element from original position to new position
+ top,left,bottom and right
+  
+  absolute position:-
+  remove the normal document flow and reposition the element
+  based on top, right, bottom and left offset values
+  it will take the other element space which are in flow 
+
+  fixed position:-
+  it is with respect to the browser
+  the content not moved 
